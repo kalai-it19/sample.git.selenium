@@ -18,9 +18,10 @@ public class GMailTest {
 			ChromeDriver driver = new ChromeDriver(options);
 			
 			driver.get("https://www.google.com");
-			driver.switchTo().defaultContent();
 			driver.manage().window().maximize();
 			driver.navigate();
+			driver.quit();
+			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
