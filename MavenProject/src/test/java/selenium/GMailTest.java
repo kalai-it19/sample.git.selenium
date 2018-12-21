@@ -20,6 +20,7 @@ public class GMailTest {
 			driver.get("https://www.google.com");
 			driver.switchTo().defaultContent();
 			driver.manage().window().maximize();
+			driver.navigate();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
