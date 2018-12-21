@@ -19,7 +19,6 @@ public class GMailTest {
 			
 			driver.get("https://www.google.com");
 			driver.manage().window().maximize();
-			driver.navigate();
 			driver.quit();
 			
 		} catch (Exception e) {
